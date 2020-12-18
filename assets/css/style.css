@@ -42,10 +42,26 @@ nav a:active {
     font-family: "Exo", sans-serif;
 }
 
+.callout-container {
+    height: 100px;
+
+    background: url('../assets/images/labrats.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
 /*----------------------------------------------Footer */
 
 footer {
-    background-color: #07D266;
+    
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -56,12 +72,12 @@ footer {
 }
 
 .social-links li a i {
-    width: 32px;
-    height: 32px;
+    width: 54px;
+    height: 54px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 25px;
+    line-height: 28px;
     text-align: center;
     color: #fafafa;
     background: #890AD9;
@@ -108,6 +124,14 @@ footer {
         margin: 0 auto;
         max-width: 50%;
     }
+    .center-form-artists {
+        padding-top: 30px;
+        padding-left: 10px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+  
 }
 /* ----------------------------------------Contact Form */
 
