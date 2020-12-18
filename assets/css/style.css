@@ -42,21 +42,17 @@ nav a:active {
     font-family: "Exo", sans-serif;
 }
 
-.callout-container {
-    height: 100px;
+#hero-image{
+  height: 200px;
+  width:100%;
+  background: url("../assets/images/2e.jpg") no-repeat center center;
 
-    background: url('../assets/images/labrats.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
+  animation-name: hero-zoom;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  
 }
+
 
 /*----------------------------------------------Footer */
 
@@ -125,6 +121,14 @@ footer {
         max-width: 50%;
     }
   
+}
+
+/* ----------------------------------------Artists Form */
+
+
+.container-fluid{
+    text-align: center;
+
 }
 /* ----------------------------------------Contact Form */
 
