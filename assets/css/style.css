@@ -1,10 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+h1,
+h2,
+h3,
+h4,
+h5{
+    color: #734cfb;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+
+}
+
+th{
+    color: #734cfb;
+}
+
 /* ----------------------------------------Colours */
 
 .bg-color-contact {
     background-color: #fff;
 }
+
 /* ----------------------------------------Header */
 
 nav ul {
@@ -23,7 +42,7 @@ nav li {
  
 nav a {
   text-decoration: none;
-  color: #07D266;
+  color: #734cfb;
   display: block;
 }
 nav a:hover {
@@ -44,15 +63,9 @@ nav a:active {
 
 #hero-image{
   height: 200px;
-  width:100%;
-  background: url("../assets/images/2e.jpg") no-repeat center center;
-
-  animation-name: hero-zoom;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  
+  width: 100%;
+  background: url("../images/labrats.jpg") no-repeat center center;
 }
-
 
 /*----------------------------------------------Footer */
 
@@ -76,7 +89,7 @@ footer {
     line-height: 28px;
     text-align: center;
     color: #fafafa;
-    background: #890AD9;
+    background: #734cfb;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -84,7 +97,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #FA8BFF;
+    background: #890AD9;
 }
 
 #footer-details {
@@ -149,7 +162,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #07D266;
+    background-color: #734cfb;
 }
 
 
