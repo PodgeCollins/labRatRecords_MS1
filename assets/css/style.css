@@ -28,13 +28,29 @@ iframe{
     margin-top: 50px;
 }
 
+.padding{
+    padding-bottom: 20px;
+}
+
+.extra-padding{
+	padding-top:84px;
+}
+
 /* ----------------------------------------Colours */
 
 .bg-color-contact {
     background-color: #fff;
 }
 
+.bg-light {
+    background-color: #fff!important;
+}
+
 /* ----------------------------------------Header */
+
+nav{
+    background-color: #fff;
+}
 
 nav ul {
   list-style: none;
@@ -72,10 +88,11 @@ nav a:active {
 }
 
 #hero-image{
-  height: 350px;
-  width: 100%;
+  height: 200px;
+  width: auto;
   background: url("../images/labrats.jpg") no-repeat center center;
 }
+/*----------------------------------------------Header Mobile */
 
 /*----------------------------------------------Footer */
 
@@ -118,7 +135,9 @@ footer {
     text-align: center;
 }
 
-
+.container h4{
+    margin-left: 20px;
+}
 /*-----------------------------------Concert */
 
 .concert-heading {
@@ -133,6 +152,11 @@ footer {
 .container, table, thead{
     text-align: center;
 
+}
+
+
+.col-concert thead tr th{
+	text-align: center;
 }
 
 /* ----------------------------------------Media Queries */

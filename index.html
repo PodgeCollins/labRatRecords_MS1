@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Bootstrap & Font Awesome-->
+	<!--Bootstrap & Font Awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f9d6df2339.js" crossorigin="anonymous"></script>
     <!--My CSS-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-
+ 
     <title>Document</title>
+ 
 </head>
 <body>
     <header>
         <div id="hero-image"></div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="artists.html">Artists</a></li>
-                        <li><a class="active" href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>  
-    </header>  
-<hr>
+	</header> 
+	<nav id="desktop-nav" class="navbar navbar-light bg-light">
+        <div class="col">
+		<div class = "container">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="artists.html">Artists</a></li>
+				<li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+		</div>
+    </nav> 
+    
+  
+<!--About Section-->
     <section>
         <div class="container">
             <div class="row">
@@ -37,27 +45,29 @@
                         their shared love of all things hiphop the three decided to start making and 
                         releasing music out of their make shift studio in the back of Chris' shed. 
                         With the release of 2es second studio album 'Mad Scientist' the collective has
-                        begun to make waves in the Irish Hiphop scene.  
+                        begun to make waves in the Irish Hiphop scene. This website keeps you, the fans,
+                        in the know about where you can find their latest shows and helps you stay up to date 
+                        on their latest projects and interviews.     
                     </p>
                 </div>
             </div>
         </div>
         
     </section>
-<hr>
+<!--Footer Section-->
 <section>
     <div class="container">
         <div class="row">
             <div class="col col-concert">
                 <h3 class="concert-heading uppercase text-center">Concerts</h3>
-                <h5 class="uppercase text-center">Tickets available online!</h5>
+                <h4 class="uppercase text-center">Tickets available online!</h4>
                     <table class="table table-borderless">
                         <thead>
                             <tr>
                                 <th scope="row"></th>
                                 <th scope="col"><i class="fas fa-city"></i> City</th>
-                                <th class="" scope="col"><i class="fas fa-music"></i> Venue</th>
-                                <th class="d-none d-sm-inline" scope="col"><i class="fas fa-calendar-day d-none d-sm-inline"></i> Date</th>
+                                <th scope="col"><i class="fas fa-music"></i> Venue</th>
+                                <th><i class="fas fa-calendar-day"></i> Date</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -65,31 +75,31 @@
                                 <th scope="row"></th>
                                     <td>Dublin</td>
                                     <td>Workmans</td>
-                                    <td class="d-none d-sm-inline">31-05-2021</td>
+                                    <td>31-05-2021</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
                                     <td>Cork</td>
                                     <td>Opera House</td>
-                                    <td class="d-none d-sm-inline">02-06-2021</td>
+                                    <td>02-06-2021</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
                                     <td>Galway</td>
                                     <td>Roisin Dubh</td>
-                                    <td class="d-none d-sm-inline">04-06-2021</td>
+                                    <td>04-06-2021</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
                                     <td>Belfast</td>
                                     <td>Limelight</td>
-                                    <td class="d-none d-sm-inline">06-06-2021</td>
+                                    <td>06-06-2021</td>
                             </tr>
                             <tr>
                                 <th scope="row"></th>
                                     <td>Limerick</td>
                                     <td>Dolans</td>
-                                    <td class="d-none d-sm-inline">08-06-2021</td>
+                                    <td>08-06-2021</td>
                             </tr>
                         </tbody>
                     </table>
@@ -103,31 +113,25 @@
             <div class="social-media col">
                 <ul class=" list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a> 
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank">
+                        <a href="https://twitter.com/RataToohey" target="_blank">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a> 
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank">
+                        <a href="https://www.instagram.com/lab_rat_records/" target="_blank">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a> 
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank">
+                        <a href="https://open.spotify.com/artist/213c51Vkf2m4RMcwzNNhea" target="_blank">
                             <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
                         </a> 
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank">
+                        <a href="https://www.youtube.com/channel/UCHe7yiLWi3K55aStpjYyuEQ" target="_blank">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a> 
@@ -137,5 +141,23 @@
         </div>
         
     </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+ 
+ 
+	<script>
+		$(function () {
+			$(document).scroll(function () {
+				var $nav = $("#desktop-nav");
+				var $image = $("#hero-image");
+				var $height = $image.height();
+ 
+				$nav.toggleClass('fixed-top', $(this).scrollTop() > $height);
+				$('body').toggleClass('extra-padding', $(this).scrollTop() > $height);	
+			});
+		});
+	</script>
 </body>
 </html>
