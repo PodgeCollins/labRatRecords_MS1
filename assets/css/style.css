@@ -21,6 +21,8 @@ th{
 img{
     margin-top: 90px;
     margin-left: 30px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -92,7 +94,6 @@ nav a:active {
   width: auto;
   background: url("../images/labrats.jpg") no-repeat center center;
 }
-/*----------------------------------------------Header Mobile */
 
 /*----------------------------------------------Footer */
 
@@ -160,16 +161,6 @@ footer {
 }
 
 /* ----------------------------------------Media Queries */
-
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-  
-}
 
 /* ----------------------------------------Artists Form */
 
