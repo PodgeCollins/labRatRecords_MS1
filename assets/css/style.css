@@ -38,6 +38,7 @@ iframe{
 	padding-top:84px;
 }
 
+
 /* ----------------------------------------Colours */
 
 .bg-color-contact {
@@ -106,7 +107,7 @@ nav a:active {
 
 footer {
     
-    color: #fafafa;
+    color: #fff;
     min-height: 120px;
     margin: 0;
 }
@@ -172,11 +173,29 @@ thead tr th{
 }
 /* ----------------------------------------Media Queries */
 
+@media screen and (max-width: 992px) {
+  .table td, .table th {
+    padding: 0;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+  img{
+      padding-right: 20px;
+  }
+ .col {
+    -ms-flex-preferred-size: 0;
+    /* flex-basis: 0; */
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+}
 /* ----------------------------------------Artists Form */
 
 .col, h3, p{
     margin-top: 20px;
 }
+
 /* ----------------------------------------Contact Form */
 
 .contact-heading {
