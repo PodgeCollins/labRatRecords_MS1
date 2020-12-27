@@ -74,13 +74,14 @@ nav a {
   display: block;
 }
 nav a:hover {
+  text-decoration: none;
   background-color: #fff;
-  color: #4a4a4f;
+  color: #890AD9;
 }
 
 nav a:active {
   background-color: #fff;
-  color: #444;
+  color: #890AD9;
   cursor: default;
 }
 
@@ -94,7 +95,13 @@ nav a:active {
   width: auto;
   background: url("../images/labrats.jpg") no-repeat center center;
 }
+/*----------------------------------------------About Section */
 
+.iframe-style{
+    height: 350px;
+    width: 350px;
+    margin-top: 100px;
+}
 /*----------------------------------------------Footer */
 
 footer {
@@ -156,10 +163,13 @@ footer {
 }
 
 
-.col-concert thead tr th{
+thead tr th{
 	text-align: center;
 }
 
+.concert-center{
+    text-align: center;
+}
 /* ----------------------------------------Media Queries */
 
 /* ----------------------------------------Artists Form */
@@ -182,12 +192,37 @@ footer {
     max-width: 70%;
 }
 
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #734cfb;
+    ;
 }
 
+.btn-success {
+    color: #fff;
+    background-color: #734cfb;
+    border-color: #734cfb;
+}
 
+.btn-success:hover {
+    color: #fff;
+    background-color: #890AD9;
+    border-color: #734cfb;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #890AD9;
+    border-color: #734cfb;
+}
+
+.btn-success.focus, .btn-success:active {
+    box-shadow: none !important; outline:​0px !important;
+}
 
