@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body{
+    background-color: rgb(235, 253, 242);
+}
 h1,
 h2,
 h3,
@@ -22,6 +25,10 @@ iframe{
     margin-top: 50px;
 }
 
+#mobile-nav{
+	display:none;
+}
+
 .padding{
     padding-bottom: 20px;
 }
@@ -34,18 +41,14 @@ iframe{
 /* ----------------------------------------Colours */
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: rgb(235, 253, 242);
 }
 
 .bg-light {
-    background-color: #fff!important;
+    background-color: rgb(235, 253, 242)!important;
 }
 
 /* ----------------------------------------Header */
-
-nav{
-    background-color: #fff;
-}
 
 nav ul {
   list-style: none;
@@ -68,14 +71,18 @@ nav a {
 }
 nav a:hover {
   text-decoration: none;
-  background-color: #fff;
+  background-color: rgb(235, 253, 242);
   color: #890AD9;
 }
 
 nav a:active {
-  background-color: #fff;
+  background-color: rgb(235, 253, 242);
   color: #890AD9;
   cursor: default;
+}
+
+div.navbar-collapse.in{
+	display: block !important;
 }
 
 .name{
@@ -86,7 +93,7 @@ nav a:active {
 #hero-image{
   height: 200px;
   width: auto;
-  background: url("../images/labrats.jpg") no-repeat center center;
+  background: url("../images/labrats2.png") no-repeat center center;
 }
 /*----------------------------------------------About Section */
 
@@ -99,7 +106,7 @@ nav a:active {
 
 footer {
     
-    color: #fff;
+    color: rgb(235, 253, 242);
     min-height: 120px;
     margin: 0;
 }
@@ -116,7 +123,7 @@ footer {
     font-size: 25px;
     line-height: 28px;
     text-align: center;
-    color: #fafafa;
+    color: rgb(235, 253, 242);
     background: #734cfb;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -163,26 +170,6 @@ thead tr th{
 .concert-center{
     text-align: center;
 }
-/* ----------------------------------------Media Queries */
-
-@media screen and (max-width: 992px) {
-  .table td, .table th {
-    padding: 0;
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
-}
-  img{
-      padding-right: 20px;
-  }
-  
- .col {
-    -ms-flex-preferred-size: 0;
-    /* flex-basis: 0; */
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    max-width: 100%;
-}
-}
 /* ----------------------------------------Artists Form */
 
 .col, h3, p{
@@ -219,24 +206,24 @@ thead tr th{
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
+    color: rgb(235, 253, 242);
     ;
 }
 
 .btn-success {
-    color: #fff;
+    color: rgb(235, 253, 242);
     background-color: #734cfb;
     border-color: #734cfb;
 }
 
 .btn-success:hover {
-    color: #fff;
+    color: rgb(235, 253, 242);
     background-color: #890AD9;
     border-color: #734cfb;
 }
 
 .btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
-    color: #fff;
+    color: rgb(235, 253, 242);
     background-color: #890AD9;
     border-color: #734cfb;
 }
@@ -244,4 +231,31 @@ button[type="submit"] {
 .btn-success.focus, .btn-success:active {
     box-shadow: none !important; outline:​0px !important;
 }
+/* ----------------------------------------Media Queries */
 
+@media screen and (max-width: 992px) {
+	  .table td, .table th {
+		padding: 0;
+		vertical-align: top;
+		border-top: 1px solid rgb(235, 253, 242);
+	}
+	  img{
+		  padding-right: 20px;
+	  }
+	 .col {
+		-ms-flex-preferred-size: 0;
+		/* flex-basis: 0; */
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	#mobile-nav{
+		display:block;
+	}
+	#desktop-nav{
+		display:none;
+	}
+}
