@@ -3,6 +3,7 @@
 body{
     background-color: rgb(235, 253, 242);
 }
+
 h1,
 h2,
 h3,
@@ -26,7 +27,8 @@ iframe{
 }
 
 #mobile-nav{
-	display:none;
+    display:none;
+    
 }
 
 .padding{
@@ -34,10 +36,13 @@ iframe{
 }
 
 .extra-padding{
-	padding-top:84px;
+	padding-top: 84px;
 }
 
-
+.modal-backdrop
+{
+    opacity:0.5;
+}
 /* ----------------------------------------Colours */
 
 .bg-color-contact {
@@ -48,37 +53,47 @@ iframe{
     background-color: rgb(235, 253, 242)!important;
 }
 
+.navbar-light .navbar-toggler {
+    color: #734cfb;
+    border-color: #734cfb;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(174, 148, 244, 1.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 /* ----------------------------------------Header */
 
 nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 nav li {
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  display: inline-block;
-  margin-left: 2.5%;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%;
 }
  
 nav a {
-  text-decoration: none;
-  color: #734cfb;
-  display: block;
+    text-decoration: none;
+    color: #734cfb;
+    display: block;
+  
 }
 nav a:hover {
-  text-decoration: none;
-  background-color: rgb(235, 253, 242);
-  color: #890AD9;
+    text-decoration: none;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
 }
 
 nav a:active {
-  background-color: rgb(235, 253, 242);
-  color: #890AD9;
-  cursor: default;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
+    cursor: default;
 }
 
 div.navbar-collapse.in{
@@ -91,9 +106,9 @@ div.navbar-collapse.in{
 }
 
 #hero-image{
-  height: 200px;
-  width: auto;
-  background: url("../images/labrats2.png") no-repeat center center;
+    height: 200px;
+    width: auto;
+    background: url("../images/labrats2.png") no-repeat center center;
 }
 /*----------------------------------------------About Section */
 
@@ -170,6 +185,12 @@ thead tr th{
 .concert-center{
     text-align: center;
 }
+
+h3 u:hover {
+    text-decoration: none;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
+}
 /* ----------------------------------------Artists Form */
 
 .col, h3, p{
@@ -199,15 +220,14 @@ thead tr th{
 }
 
 .form-control:focus {
-  border-color: #FF0000;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+    border-color: #734cfb;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #890AD9;
 }
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: rgb(235, 253, 242);
-    ;
 }
 
 .btn-success {
@@ -234,28 +254,36 @@ button[type="submit"] {
 /* ----------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {
-	  .table td, .table th {
+	.table td, .table th {
 		padding: 0;
 		vertical-align: top;
 		border-top: 1px solid rgb(235, 253, 242);
 	}
-	  img{
-		  padding-right: 20px;
+	img{
+		padding-right: 20px;
 	  }
-	 .col {
+	.col {
 		-ms-flex-preferred-size: 0;
 		/* flex-basis: 0; */
 		-ms-flex-positive: 1;
 		flex-grow: 1;
 		max-width: 100%;
-	}
+    }
+    #mobile-nav{
+        display:block;
+        
+    }
+    #mobile-nav a{
+        color: #734cfb;
+        }
+    
+	#desktop-nav{
+        display:none;
+    }
+    .extra-padding{
+        padding-top: 0;
+        }
 }
 
-@media screen and (max-width: 992px) {
-	#mobile-nav{
-		display:block;
-	}
-	#desktop-nav{
-		display:none;
-	}
-}
+
+

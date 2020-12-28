@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
-	<!--Bootstrap & Font Awesome-->
+<!--Bootstrap & Font Awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f9d6df2339.js" crossorigin="anonymous"></script>
-    <!--My CSS-->
+<!--My CSS-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
  
     <title>Labrat Records</title>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-success">Submit</button>
+                                <button type="submit" class="btn btn-success" data-toggle="modal" data-target="submitButton">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -111,10 +111,10 @@
         </div>
         
     </footer>
-    <!--jQuery (Bootstrap's JavaScript plugins)-->
+<!--jQuery (Bootstrap's JavaScript plugins)-->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-   <!--JQuery Code-->
+<!--JQuery Code-->
 	<script>
 		$(function () {
 			$(document).scroll(function () {
@@ -123,7 +123,11 @@
 				var $height = $image.height();
  
 				$nav.toggleClass('fixed-top', $(this).scrollTop() > $height);
-				$('body').toggleClass('extra-padding', $(this).scrollTop() > $height);	
+                $('body').toggleClass('extra-padding', $(this).scrollTop() > $height);
+                
+                if ($(window).width() > 992) { 
+                $('#desktop-nav').removeClass('extra-padding');
+}	
 			});
 		});
 	</script>

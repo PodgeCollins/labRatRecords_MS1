@@ -79,7 +79,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h3 class="concert-heading uppercase text-center">Concerts</h3>
+                    <h3 class="concert-heading uppercase text-center" data-toggle="modal" data-target="#concerts"><u>Concerts</u></h3>
                     <h4 class="uppercase text-center">Tickets available online!</h4>
                     <div class="table-responsive-sm">
                         <table class="table table-borderless">
@@ -161,13 +161,48 @@
                 </ul>  
             </div>
         </div>
-        
     </footer>
+<!--Modal-->    
+    <div class="modal" tabindex="-1" role="dialog" id="concerts">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Catch Our Next Show!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div>  
+                            <label for="exampleInputEmail1">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Your tickets will be sent to the email you provide.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="venue">Venue</label>
+                            <input type="venue" class="form-control" id="venue" placeholder="Enter Venue">
+                        </div>
+                        <div class="form-group">
+                            <label for="ticketquantity">Tickets</label>
+                            <input type="number" class="form-control" id="pquantity" min="1" max="5">
+                        </div>
+                        <div class="form-group">
+                            <label for="cardDetails">Card Details</label>
+                            <input type="carddetails" class="form-control" id="cardDetails" placeholder="****">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!--jQuery (Bootstrap's JavaScript plugins)-->
+
+<!--jQuery (Bootstrap's JavaScript plugins)-->
 	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    <!--JQuery Code-->
+<!--JQuery Code-->
 	<script>
 		$(function () {
 			$(document).scroll(function () {
