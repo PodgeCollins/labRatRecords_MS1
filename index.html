@@ -7,7 +7,6 @@
     <meta name="HandheldFriendly" content="true">
 <!--Bootstrap & Font Awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f9d6df2339.js" crossorigin="anonymous"></script>
 <!--My CSS-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
@@ -25,7 +24,8 @@
 		<div class = "container">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="artists.html">Artists</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="merch.html">Merchandise</a></li>
 				<li><a class="active" href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -43,6 +43,9 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="artists.html">Artists</a>
+                </li>
+                <li class="nav-item">
+					<a class="nav-link" href="merch.html">Merchandise</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="contact.html">Contact</a>
@@ -185,7 +188,7 @@
                         </div>
                         <div class="form-group">
                             <label for="ticketquantity">Tickets</label>
-                            <input type="number" class="form-control" id="pquantity" min="1" max="5">
+                            <input type="number" class="form-control" id="tickets" min="1" max="5" placeholder="1-5">
                         </div>
                         <div class="form-group">
                             <label for="cardDetails">Card Details</label>

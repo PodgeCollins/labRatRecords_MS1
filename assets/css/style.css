@@ -203,6 +203,13 @@ h3 u:hover {
     width: 300px;
     height: 300px;
 }
+/* ----------------------------------------Merch Page */
+
+h5 u:hover {
+    text-decoration: none;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
+}
 
 /* ----------------------------------------Contact Form */
 
