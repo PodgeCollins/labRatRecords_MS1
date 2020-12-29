@@ -116,6 +116,10 @@ Used throughout project to style and make site responsive.
 
 Alot of the code used in this website came from this tutorial.
 
+### [Bootstrap CDN](https://bootstrap-menu.com/detail-fixed-onscroll.html)
+
+This code helped me figure out how to have a fixed navbar after scrolling.
+
 ## Content:
 
 All content was written by developer
