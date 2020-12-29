@@ -106,6 +106,13 @@ div.navbar-collapse.in{
     font-family: "Exo", sans-serif;
 }
 
+.sticky{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
 #hero-image{
     height: 200px;
     width: auto;

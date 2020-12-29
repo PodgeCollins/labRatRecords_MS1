@@ -17,7 +17,7 @@
 <body>
 <!--Hero Image and Navbar-->
     <header>
-        <nav id ="mobile-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav id ="mobile-nav" class="navbar navbar-expand-lg navbar-light bg-light sticky">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -117,24 +117,8 @@
         
     </footer>
 <!--jQuery (Bootstrap's JavaScript plugins)-->
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-<!--JQuery Code-->
-	<script>
-		$(function () {
-			$(document).scroll(function () {
-				var $nav = $("#desktop-nav");
-				var $image = $("#hero-image");
-				var $height = $image.height();
- 
-				$nav.toggleClass('fixed-top', $(this).scrollTop() > $height);
-                $('body').toggleClass('extra-padding', $(this).scrollTop() > $height);
-                
-                if ($(window).width() > 992) { 
-                $('#desktop-nav').removeClass('extra-padding');
-}	
-			});
-		});
-	</script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
