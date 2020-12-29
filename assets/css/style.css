@@ -7,19 +7,7 @@ body{
     background-color: rgb(235, 253, 242);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5{
-    color: #734cfb;
-    text-align: center;
-}
 
-p{
-    text-align: center;
-
-}
 
 th{
     color: #734cfb;
@@ -46,6 +34,18 @@ th{
 
 .bg-light {
     background-color: rgb(235, 253, 242)!important;
+}
+
+.h3-colour{
+    color: #734cfb;
+}
+
+.h4-colour{
+    color: #734cfb;
+}
+
+.h5-colour{
+    color: #734cfb;
 }
 
 /* ----------------------------------------Header */
@@ -209,7 +209,7 @@ thead tr th{
     text-align: center;
 }
 
-h3 u:hover {
+h3:hover {
     text-decoration: none;
     background-color: rgb(235, 253, 242);
     color: #890AD9;
@@ -227,11 +227,23 @@ h3 u:hover {
     height: 300px;
 }
 /* ----------------------------------------Merch Page */
+a {
+    color: #734cfb;
+    text-decoration: none;
+    background-color: transparent;
+}
 
-h5 u:hover {
+a:hover {
     text-decoration: none;
     background-color: rgb(235, 253, 242);
     color: #890AD9;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
+    cursor: default;
 }
 
 /* ----------------------------------------Contact Form */

@@ -1,90 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
-	<!--Bootstrap & Font Awesome-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!--Bootstrap & Font Awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/f9d6df2339.js" crossorigin="anonymous"></script>
     <!--My CSS-->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
- 
+
     <title>Labrat Records</title>
 </head>
+
 <body>
-<!--Hero Image and Navbar-->
+    <!--Hero Image and Navbar-->
     <header>
-        <nav id ="mobile-nav" class="navbar navbar-expand-lg navbar-light bg-light sticky">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="artists.html">Artists</a>
-                </li>
-                <li class="nav-item">
-					<a class="nav-link" href="merch.html">Merchandise</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+        <nav id="mobile-nav" class="navbar navbar-expand-lg navbar-light bg-light sticky">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="artists.html">Artists</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="merch.html">Merchandise</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <a href="index.html">
-        <div id="hero-image"></div>
+            <div id="hero-image"></div>
         </a>
-	</header>
-	
+    </header>
+
     <nav id="desktop-nav" class="navbar navbar-light bg-light">
         <div class="col">
-		<div class = "container">
-			<ul>
-				<li><a href="index.html">Home</a></li>
-                <li><a href="artists.html">Artists</a></li>
-                <li><a href="merch.html">Merchandise</a></li>
-				<li><a class="active" href="contact.html">Contact</a></li>
-            </ul>
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="artists.html">Artists</a></li>
+                    <li><a href="merch.html">Merchandise</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-		</div>
     </nav>
-	
-	
-<!--Merch Section-->
+
+
+    <!--Merch Section-->
     <div class="container">
         <div class="row">
             <div class="col col-6">
-                    <img src="assets/images/blacktshirt.png" alt="tshirt" class="artist-image">
-                    <h5 data-toggle="modal" data-target="#merch"><u>Tshirt €20</u></h5>
+                <img src="assets/images/blacktshirt.png" alt="tshirt" class="artist-image">
+                
+                <h5 class="h5-colour" data-toggle="modal" data-target="#merch"><a href="modal">Tshirt €20</a></h5>
+                
             </div>
             <div class="col col-6">
-                    <img src="assets/images/hoodie.png" alt="hoodie" class="artist-image padding">
-                    <h5 data-toggle="modal" data-target="#merch"><u>Hoodie €35</u></h5>
+                <img src="assets/images/hoodie.png" alt="hoodie" class="artist-image padding">
+                
+                <h5 class="h5-colour" data-toggle="modal" data-target="#merch"><a href="modal">Hoodie €35</a></h5>
+            
             </div>
         </div>
         <div class="row">
             <div class="col col-6">
-                    <img src="assets/images/msvinyl.png" alt="Scientist" class="artist-image">
-                    <h5 data-toggle="modal" data-target="#merch"><u>Mad Scientist LP €20</u></h5>
+                <img src="assets/images/msvinyl.png" alt="Scientist" class="artist-image">
+                
+                <h5 class="h5-colour" data-toggle="modal" data-target="#merch"><a href="modal">Mad Scientist LP €20</a></h5>
+                </a>
             </div>
             <div class="col col-6">
-                    <img src="assets/images/tlvinyl.png" alt="Lab" class="artist-image">
-                    <h5 data-toggle="modal" data-target="#merch"><u>The Lab LP €20</u></h5>
+                <img src="assets/images/tlvinyl.png" alt="Lab" class="artist-image">
+                
+                <h5 class="h5-colour" data-toggle="modal" data-target="#merch"><a href="modal">The Lab LP €20</a></h5>
+                
             </div>
             <div class="col">
-                    <img src="assets/images/stickers.png" alt="stickers" class="artist-image">
-                    <h5 data-toggle="modal" data-target="#merch"><u>Stickers €5</u></h5>
+                <img src="assets/images/stickers.png" alt="stickers" class="artist-image">
+                
+                <h5 class="h5-colour" data-toggle="modal" data-target="#merch"><a href="modal">Stickers €5</a></h5>
+                
             </div>
         </div>
     </div>
-<!--Footer Section-->
+    <!--Footer Section-->
     <footer id="footer-details" class="container-fluid">
         <div class="row social-media">
             <div class="social-media col">
@@ -93,52 +108,55 @@
                         <a href="https://twitter.com/RataToohey" target="_blank">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
-                        </a> 
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.instagram.com/lab_rat_records/" target="_blank">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
-                        </a> 
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://open.spotify.com/artist/213c51Vkf2m4RMcwzNNhea" target="_blank">
                             <i class="fa fa-spotify" aria-hidden="true"></i>
                             <span class="sr-only">Spotify</span>
-                        </a> 
+                        </a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.youtube.com/channel/UCHe7yiLWi3K55aStpjYyuEQ" target="_blank">
                             <i class="fa fa-youtube" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
-                        </a> 
+                        </a>
                     </li>
-                </ul>  
+                </ul>
             </div>
         </div>
-        
+
     </footer>
-<!--Modal-->    
+    <!--Modal-->
     <div class="modal" tabindex="-1" role="dialog" id="merch">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Cop that Merch!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <form>
-                        <div>  
+                        <div>
                             <label for="exampleInputEmail1">Email Address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">Your receipt will be sent to the email you provide.</small>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Your receipt will be sent to the email
+                                you provide.</small>
                         </div>
                         <div class="form-group">
                             <label for="venue">Home Address</label>
                             <input type="venue" class="form-control" id="home" placeholder="Address">
-                            <small id="homeAddress" class="form-text text-muted">Your purchase will be delivered to this address.</small>
+                            <small id="homeAddress" class="form-text text-muted">Your purchase will be delivered to this
+                                address.</small>
                         </div>
                         <div class="form-group">
                             <label for="ticketquantity">Quantity</label>
@@ -154,9 +172,10 @@
             </div>
         </div>
     </div>
-<!--jQuery (Bootstrap's JavaScript plugins)-->
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!--jQuery (Bootstrap's JavaScript plugins)-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>
