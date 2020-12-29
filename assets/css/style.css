@@ -1,21 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/*----------------------------------------------Extra Stylings */
+/*--------------------------------------------------------------------Extra Stylings */
 
 body{
     background-color: rgb(235, 253, 242);
 }
-
-
-
-th{
-    color: #734cfb;
-}
-
-
-
-
 
 .padding{
     padding-bottom: 20px;
@@ -25,8 +15,7 @@ th{
 	padding-top: 84px;
 }
 
-
-/* ----------------------------------------Colours */
+/* --------------------------------------------------------------------Colours */
 
 .bg-color-contact {
     background-color: rgb(235, 253, 242);
@@ -34,6 +23,9 @@ th{
 
 .bg-light {
     background-color: rgb(235, 253, 242)!important;
+}
+.h2-colour{
+    color: #734cfb;
 }
 
 .h3-colour{
@@ -48,7 +40,11 @@ th{
     color: #734cfb;
 }
 
-/* ----------------------------------------Header */
+.th-colour{
+    color: #734cfb;
+}
+
+/* --------------------------------------------------------------------Header */
 
 nav ul {
     list-style: none;
@@ -88,6 +84,16 @@ nav a:active {
     margin-right: 5px;
 }
 
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-left: 225px;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
 .navbar-light .navbar-toggler {
     color: #734cfb;
     border-color: #734cfb;
@@ -123,7 +129,7 @@ div.navbar-collapse.in{
     display:none;
     
 }
-/*----------------------------------------------About Section */
+/*--------------------------------------------------------------------About Section */
 
 iframe{
     margin-top: 50px;
@@ -135,12 +141,12 @@ iframe{
     margin-top: 100px;
 }
 
-/*----------------------------------------------Modal */
+/*--------------------------------------------------------------------Modal */
 .modal-backdrop
 {
     opacity:0.5;
 }
-/*----------------------------------------------Footer */
+/*--------------------------------------------------------------------Footer */
 
 footer {
     
@@ -184,7 +190,7 @@ footer {
 .container h4{
     margin-left: 20px;
 }
-/*-----------------------------------Concert */
+/*--------------------------------------------------------------------Concert */
 
 .concert-heading {
     font-family: "Exo", sans-serif;
@@ -200,7 +206,6 @@ footer {
 
 }
 
-
 thead tr th{
 	text-align: center;
 }
@@ -213,8 +218,15 @@ h3:hover {
     text-decoration: none;
     background-color: rgb(235, 253, 242);
     color: #890AD9;
+    cursor: pointer;
 }
-/* ----------------------------------------Artists Form */
+
+h3:active {
+    text-decoration: none;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
+}
+/*--------------------------------------------------------------------Artists Form */
 
 .col, h3, p{
     margin-top: 20px;
@@ -226,27 +238,27 @@ h3:hover {
     width: 300px;
     height: 300px;
 }
-/* ----------------------------------------Merch Page */
+/* --------------------------------------------------------------------Merch Page */
 a {
     color: #734cfb;
     text-decoration: none;
     background-color: transparent;
 }
 
-a:hover {
+h5:hover {
+    text-decoration: none;
+    background-color: rgb(235, 253, 242);
+    color: #890AD9;
+    cursor: pointer;
+}
+
+h5:active {
     text-decoration: none;
     background-color: rgb(235, 253, 242);
     color: #890AD9;
 }
 
-a:active {
-    text-decoration: none;
-    background-color: rgb(235, 253, 242);
-    color: #890AD9;
-    cursor: default;
-}
-
-/* ----------------------------------------Contact Form */
+/*--------------------------------------------------------------------Contact Form */
 
 .contact-heading {
     font-family: "Exo", sans-serif;
@@ -293,9 +305,12 @@ button[type="submit"] {
 .btn-success.focus, .btn-success:active {
     box-shadow: none !important; outline:​0px !important;
 }
-/* ----------------------------------------Media Queries */
+/*--------------------------------------------------------------------Media Queries */
 
 @media screen and (max-width: 992px) {
+    #hero-image{
+        display: none;
+    }
 	.table td, .table th {
 		padding: 0;
 		vertical-align: top;
