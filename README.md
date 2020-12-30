@@ -14,36 +14,45 @@ them for future events.
 ## User stories:
 
 ### First Time Visitor Goals:
-    -As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation
+    -As a First Time Visitor, I want to easily understand the main purpose 
+    of the site and learn more about the organisation
 
-    -As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content
+    -As a First Time Visitor, I want to be able to easily be able to 
+    navigate throughout the site to find content
 
 ### Returning Visitor Goals:
-    -As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have
+    -As a Returning Visitor, I want to find the best way to get in contact 
+    with the organisation with any questions I may have
 
-    -As a Returning Visitor, I want to find the Social Media links so that I can follow and interact with the artists latest posts
+    -As a Returning Visitor, I want to find the Social Media links so that 
+    I can follow and interact with the artists latest posts
 
 ### Frequent User Goals:
-    -As a Frequent User, I want to check to see if there are any newly added merchandise to the website
+    -As a Frequent User, I want to check to see if there are any newly 
+    added merchandise to the website
 
-    -As a Frequent User, I want to check to see if the artist is playing new shows
+    -As a Frequent User, I want to check to see if the artist is playing 
+    new shows
 
 ## Design:
 
 ### Colour Scheme:
-    -The main colours used are Purple for the text, icons & clicking text boxes, 
-    a light pink for hovering over navbar and icons and bluish white hue to the background.
+    -The main colours used are Purple for the text, icons & clicking text 
+    boxes, a light pink for hovering over navbar and icons and bluish 
+    white hue to the background.
 
 ### Typography:
-    -The Roboto font is the main font used throughout the whole website with Sans Serif 
-    as the fallback font in case for any reason the font isn't being imported into the 
-    site correctly. Roboto is a clean font used frequently in programming, so it is both 
-    aesthically appealing and appropriate.
+    -The Roboto font is the main font used throughout the whole website 
+    with Sans Serif as the fallback font in case for any reason the font 
+    isn't being imported into the site correctly. Roboto is a clean font 
+    used frequently in programming, so it is both aesthically appealing 
+    and appropriate.
 
 ### Imagery:
-    -The imagery was important as I need to show the collectives Logo, the artists themselves
-    and merchandise they wished to sell on the website. I feel the collectives artwork
-    is original and gets across the energy the collective emit
+    -The imagery was important as I need to show the collectives Logo, 
+    the artists themselves and merchandise they wished to sell on the website. 
+    I feel the collectives artwork is original and gets across the energy the 
+    collective emit
 
 ## Wireframes: 
 
@@ -76,7 +85,8 @@ them for future events.
     - This was used for jquery
 
 ### Jquery
-    -Used to position navbar and fix it to top after the hero image was scrolled by
+    -Used to position navbar and fix it to top after the hero image was 
+    scrolled by
 
 ### Google Fonts
     -Used to import Roborto font into my style.css
@@ -85,7 +95,8 @@ them for future events.
     -Used for all my icons on index.html
 
 ### Git 
-    -Used for version control by utilizing the gitpod terminal to commit to Git and Push to github
+    -Used for version control by utilizing the gitpod terminal to commit to 
+    Git and Push to github
 
 ### Github
     -Used to store repositories 
@@ -201,7 +212,8 @@ W3C CSS Validator - [Results](http://jigsaw.w3.org/css-validator/validator?uri=h
 
 5. The page will automatically refresh.
     
-6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site link in the 
+"GitHub Pages" section.
 
 
 ## Forking the GitHub Repository:
@@ -253,7 +265,8 @@ Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-clo
 
 ### [Bootstrap 4.3](https://getbootstrap.com/docs/4.3/getting-started/introduction/) 
 
-    Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+    Bootstrap Library used throughout the project mainly to make site responsive using 
+    the Bootstrap Grid System.
 
 ### [Bootstrapping Your Next Big Idea With Bootstrap 4](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/7c0e25d1061e47cdae9c492d623bfc65/?child=first)
 
@@ -265,7 +278,8 @@ Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-clo
 
 ### [Bootstrap 4 remove blue glow](https://www.xspdf.com/resolution/52531741.html)
 
-    Code was taken from this page to help remove the outter glow on the submit button on contact.html
+    Code was taken from this page to help remove the outter glow on the submit button on 
+    contact.html
 
 ### [Change Bootstrap input focus blue glow](https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow)
 
@@ -273,7 +287,8 @@ Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-clo
 
 ### [Adding gif](https://www.webdeveloper.com/d/102490-how-to-add-an-animated-gif-to-a-css-or-html-page-please)  
 
-    This code used to answer this question helped me place an animated gif into my project via my css rather than using <iframe>.
+    This code used to answer this question helped me place an animated gif into my project 
+    via my css rather than using <iframe>.
   
 
 ## Content:
