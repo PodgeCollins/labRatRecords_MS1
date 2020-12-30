@@ -1,4 +1,4 @@
-# Mile Stone Project One
+<h1 align="center">Mile Stone Project One</h1>
 
 [View full webpage here](https://podgecollins.github.io/MileStoneProjectOne/) 
 
@@ -7,7 +7,7 @@ This website was create to give new and old fans an opportunity to keep up to da
 with the collectives upcoming shows, learn more about the collectives history and book
 them for future events.
 
-<img src="../images/responsive.png" alt="Responsive">
+<h2 align="center"><img src="assets/images/labrat-devices.png"></h2>
 
 # UX User Experience:
 
