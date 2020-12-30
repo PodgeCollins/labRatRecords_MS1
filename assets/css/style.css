@@ -88,7 +88,6 @@ nav a:active {
     display: inline-block;
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    margin-left: 225px;
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
@@ -199,11 +198,8 @@ footer {
     margin-bottom: 20px;
 }
 
-
-
 .container, table, thead{
     text-align: center;
-
 }
 
 thead tr th{
@@ -303,7 +299,7 @@ button[type="submit"] {
 }
 
 .btn-success.focus, .btn-success:active {
-    box-shadow: none !important; outline:​0px !important;
+    box-shadow: none !important;
 }
 /*--------------------------------------------------------------------Media Queries */
 
@@ -333,6 +329,18 @@ button[type="submit"] {
     #mobile-nav a{
         color: #734cfb;
         }
+
+    #mobile-nav a:hover {
+    text-decoration: none;
+    background-color: rgb(235, 253, 242, 0);
+    color: #890AD9;
+    }
+
+    #mobile-nav a:active {
+    background-color: rgb(235, 253, 242, 0);
+    color: #890AD9;
+    cursor: default;
+    }
     
 	#desktop-nav{
         display:none;
@@ -341,6 +349,7 @@ button[type="submit"] {
         padding-top: 0;
         }
 }
+
 
 
 

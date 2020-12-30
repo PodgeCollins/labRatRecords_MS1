@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <!-----------------------------------------Bootstrap------------------------------------------>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
@@ -23,7 +22,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="index.html">
-                <h3>Lab Rat Records</h3>
+                <h5>Lab Rat Records</h5>
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -102,7 +101,6 @@
                                 <th class="th-colour" scope="col"><i class="fas fa-music"></i> Venue</th>
                                 <th class="th-colour"><i class="fas fa-calendar-day"></i> Date</th>
                             </tr>
-                            </thead>
                             <tbody>
                                 <tr>
                                     <th class="th-colour" scope="row"></th>
@@ -187,23 +185,23 @@
                 <div class="modal-body">
                     <form>
                         <div>
-                            <label for="exampleInputEmail1">Email Address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="email">Email Address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">Your tickets will be sent to the email
                                 you provide.</small>
                         </div>
                         <div class="form-group">
                             <label for="venue">Venue</label>
-                            <input type="venue" class="form-control" id="venue" placeholder="Enter Venue">
+                            <input type="text" class="form-control" id="venue" placeholder="Enter Venue">
                         </div>
                         <div class="form-group">
-                            <label for="ticketquantity">Tickets</label>
+                            <label for="tickets">Tickets</label>
                             <input type="number" class="form-control" id="tickets" min="1" max="5" placeholder="1-5">
                         </div>
                         <div class="form-group">
                             <label for="cardDetails">Card Details</label>
-                            <input type="carddetails" class="form-control" id="cardDetails" placeholder="****">
+                            <input type="number" class="form-control" id="cardDetails" placeholder="****">
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
