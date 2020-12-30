@@ -56,9 +56,9 @@ them for future events.
 
 ## Wireframes: 
 
-    Original Desktop Wireframe - [View](https://www.figma.com/file/mpTebBAEi2QM3FZmjdXDHi/Lab-Rats-Mock-Up?node-id=0%3A1)
+Original Desktop Wireframe - [View](https://www.figma.com/file/mpTebBAEi2QM3FZmjdXDHi/Lab-Rats-Mock-Up?node-id=0%3A1)
 
-    Original Mobile Wireframe - [View](https://www.figma.com/file/mpTebBAEi2QM3FZmjdXDHi/Lab-Rats-Mock-Up?node-id=10%3A151)
+Original Mobile Wireframe - [View](https://www.figma.com/file/mpTebBAEi2QM3FZmjdXDHi/Lab-Rats-Mock-Up?node-id=10%3A151)
 
 
 # Features:
