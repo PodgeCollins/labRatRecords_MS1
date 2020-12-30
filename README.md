@@ -293,7 +293,11 @@ Click [Here](https://docs.github.com/en/free-pro-team@latest/github/creating-clo
 
 ### [Change Bootstrap input focus blue glow](https://stackoverflow.com/questions/14820952/change-bootstrap-input-focus-blue-glow)
 
-    Code was taking to change the styling of 'form-control:focus'  
+    Code was taking to change the styling of 'form-control:focus'
+
+### [Adding gif](https://www.webdeveloper.com/d/102490-how-to-add-an-animated-gif-to-a-css-or-html-page-please)  
+
+    This code used to answer this question helped me place an animated gif into my project via my css rather than using <iframe>.
   
 
 ## Content:
