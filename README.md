@@ -114,7 +114,7 @@ them for future events.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every 
 page of the project to ensure there were no syntax errors in the project.
 
-W3C Markup Validator - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ff720af12-d07b-4ac6-8668-0870756cc90f.ws-eu03.gitpod.io%2F%23%2Fworkspace%2FMileStoneProjectOne&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+W3C Markup Validator - [Results](https://github.com/PodgeCollins/MileStoneProjectOne/tree/master/assets/Validation%20images)
 
 W3C CSS Validator - [Results](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ff720af12-d07b-4ac6-8668-0870756cc90f.ws-eu03.gitpod.io%2F%23%2Fworkspace%2FMileStoneProjectOne&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
