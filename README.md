@@ -14,31 +14,19 @@ them for future events.
 ## User stories:
 
 ### First Time Visitor Goals:
-    -As a First Time Visitor, I want to easily understand the main purpose of the site and
-    learn more about the organisation.
+    -As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation
 
-    -As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-
-    -As a First Time Visitor, I want to look for testimonials to understand what their users think of 
-    them and see if they are trusted. I also want to locate their social media links to see their 
-    followings on social media to determine how trusted and known they are.
+    -As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content
 
 ### Returning Visitor Goals:
-    -As a Returning Visitor, I want to find information about coding challenges.
+    -As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have
 
-    -As a Returning Visitor, I want to find the best way to get in contact with 
-    the organisation with any questions I may have.
-
-    -As a Returning Visitor, I want to find community links.
+    -As a Returning Visitor, I want to find the Social Media links so that I can follow and interact with the artists latest posts
 
 ### Frequent User Goals:
-    -As a Frequent User, I want to check to see if there are any newly added 
-    challenges or hackathons.
+    -As a Frequent User, I want to check to see if there are any newly added merchandise to the website
 
-    -As a Frequent User, I want to check to see if there are any new blog posts.
-
-    -As a Frequent User, I want to sign up to the Newsletter so that I am emailed 
-    any major updates and/or changes to the website or organisation.
+    -As a Frequent User, I want to check to see if the artist is playing new shows
 
 ## Design:
 
@@ -138,18 +126,6 @@ W3C CSS Validator - [Results](http://jigsaw.w3.org/css-validator/validator?uri=h
     
     On the Contact Us Page, after a form response is submitted, the page refreshes and the 
     user is brought to the top of the page where the navigation bar is.
-
-#### As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are:
-
-    Once the new visitor has read the About Us and What We Do text, they will notice the 
-    Why We are Loved So Much section.
-
-    The user can also scroll to the bottom of any page on the site to locate social media 
-    links in the footer.
-
-    At the bottom of the Contact Us page, the user is told underneath the form, that 
-    alternatively they can contact the organisation on social media which highlights the 
-    links to them.
 
 ### Returning Visitor Goals:
 
