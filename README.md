@@ -1,6 +1,6 @@
 <h1 align="center">Mile Stone Project One</h1>
 
-[View full webpage here](https://podgecollins.github.io/MileStoneProjectOne/) 
+[View full webpage here](https://podgecollins.github.io/labRatRecords_MS1/) 
 
 This web site is to promote the Independent Hiphop collective known as Labrat Records.
 This website was create to give new and old fans an opportunity to keep up to date
